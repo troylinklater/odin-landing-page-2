@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .section {
@@ -45,8 +45,9 @@ li {
 .one-content {
     max-width: 800px;
     display: flex;
-    padding: 40px 0px;
+    padding: 80px 0px;
     color: white;
+    gap: 40px;
 }
 
 /* .heading {
@@ -122,5 +123,31 @@ button {
 
 .caption {
     padding: 0px 0px;
+    margin: 0px;
+    width: 160px;
+    text-align: center;
+}
+
+.grey {
+    background-color: #e2e7eb;
+}
+
+.three-content {
+    max-width: 700px;
+    display: flex;
+    padding: 80px 0px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quote {
+    font-weight: 100;
+    font-size: 36px;
+    margin: 0px;
+}
+
+.author {
+    text-align: end;
+    font-weight: 700;
     margin: 0px;
 }
